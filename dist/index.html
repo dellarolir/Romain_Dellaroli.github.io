@@ -6,21 +6,40 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Romain Dellaroli - Portfolio Arcade</title>
-  <script type="module" crossorigin src="/assets/index-Bs2k3zDh.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-BMFlF59g.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/site/assets/index-CvB9MzbJ.js"></script>
+  <link rel="stylesheet" crossorigin href="/site/assets/index-BpaDSqq1.css">
 </head>
 
 <body>
-  <div class="scanlines"></div>
+
   <div id="app" class="container">
+    <nav class="navbar">
+      <button class="burger-btn" id="burger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="nav-item">À propos de moi</a>
+        <a href="#project-container" class="nav-item">Mes projets</a>
+        <a href="#contact" class="nav-item">Contact</a>
+        <a href="/assets/DELLAROLI-CV.pdf" download class="btn nav-cv-btn">Télécharger mon CV</a>
+      </div>
+    </nav>
+
     <header class="hero">
-      <img src="/assets/profil.png" alt="Romain Dellaroli" class="profile-img flicker" />
-      <h1 class="flicker">Romain Dellaroli</h1>
-      <h3>Étudiant en BUT Informatique - Parcours RACDV</h3>
-      <p>Portfolio Rétro Arcade</p>
+      <div class="hero-content">
+        <h1>Romain Dellaroli</h1>
+        <h3>Étudiant en deuxième année de BUT Informatique - Parcours RACDV</h3>
+        <p class="subtitle-location">à l'IUT de Montpellier-Sète</p>
+      </div>
+      <img src="/site/assets/profil.png" alt="Romain Dellaroli" class="profile-img" />
     </header>
 
-    <section class="presentation">
+    <section id="about" class="presentation">
       <h2>À propos de moi</h2>
       <p>Je m’appelle Romain Dellaroli et je suis en deuxième année de BUT Informatique en parcours RACDV.</p>
       <p>Après avoir obtenu le BAC en 2023 avec la mention «Bien», je me suis inscrit en cycle préparatoire intégré en
@@ -46,13 +65,27 @@
       <!-- Projects will be injected here by JS router -->
     </main>
 
-    <footer>
-      <h3>Contact</h3>
-      <p>N'hésitez pas à me contacter pour toute opportunité !</p>
-      <div class="social-links">
-        <a href="#" target="_blank" class="btn">LinkedIn</a>
-        <a href="#" target="_blank" class="btn">GitHub</a>
-        <a href="/assets/DELLAROLI-CV.pdf" download class="btn">Télécharger CV</a>
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-group">
+          <h4>Mes Réseaux</h4>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/romain-dellaroli-705550347/" target="_blank"
+              class="footer-link">LinkedIn</a>
+            <a href="https://github.com/dellarolir" target="_blank" class="footer-link">GitHub</a>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-group">
+          <h4>Me Contacter</h4>
+          <div class="social-links">
+            <a href="mailto:votre.email@exemple.com" class="footer-link"><i class="fas fa-envelope"></i>
+              romain.dellaroli@etu.umontpellier.fr</a>
+            <span class="footer-text"><i class="fas fa-mobile-alt"></i> 07 83 25 36 52</span>
+          </div>
+        </div>
       </div>
     </footer>
   </div>
@@ -60,9 +93,17 @@
   <!-- Image Modal -->
   <div id="image-modal" class="modal">
     <span class="close-modal">&times;</span>
+    <span class="close-fullscreen">&times;</span>
     <button id="modal-prev" class="modal-nav prev">&lt;</button>
-    <div class="modal-image-container">
-      <img class="modal-content" id="modal-img">
+    <div class="modal-card">
+      <div class="modal-image-wrapper">
+        <img id="modal-img" alt="Projet Image">
+      </div>
+      <div class="modal-info">
+        <div class="image-description">
+        </div>
+
+      </div>
     </div>
     <button id="modal-next" class="modal-nav next">&gt;</button>
   </div>
