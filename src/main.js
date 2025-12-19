@@ -108,7 +108,7 @@ const render = (viewName) => {
     // Generate Gallery HTML - Pass Index now
     // map uses img.src now
     const galleryHtml = allImages.map((imgObj, index) =>
-      `<img src="/assets/${imgObj.src}" class="gallery-img" alt="${p.title}" onclick="window.openModal(${index})">`
+      `<img src="${import.meta.env.BASE_URL}assets/${imgObj.src}" class="gallery-img" alt="${p.title}" onclick="window.openModal(${index})">`
     ).join('');
 
     main.innerHTML = `
@@ -204,9 +204,8 @@ const updateTransform = () => {
 
 const updateModalState = () => {
   // Update Image
-  modalImg.src = `/assets/${currentProjectImages[currentImageIndex]}`;
   const currentImgObj = currentProjectImages[currentImageIndex];
-  modalImg.src = `/assets/${currentImgObj.src}`;
+  modalImg.src = `${import.meta.env.BASE_URL}assets/${currentImgObj.src}`;
 
   // Update Description
   const descContainer = document.querySelector('.image-description');
