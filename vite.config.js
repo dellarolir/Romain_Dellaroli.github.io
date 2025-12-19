@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    // Repository username.github.io = site servi à la racine
-    base: '/',
+    // Le site sera accessible à https://dellarolir.github.io/Romain_Dellaroli.github.io/
+    base: '/Romain_Dellaroli.github.io/',
 })
