@@ -1,0 +1,27 @@
+Projet 1 :
+Développement d’un site web de démocratie participative.
+- Depuis Septembre 2025 et jusqu’en Décembre 2025, jai été amené à travailler en équipe sur un
+projet académique de création d’un site web de démocratie participative en réponse au besoin d’un
+client. Ce projet m’a permis de visualiser toutes les étapes d’un projet de réalisation d’une
+application, qui sont la planification, l’analyse, la conception, le développement, les différents tests
+et enfin la livraison. Nous avions pour contrainte d’appliquer le principe des méthodes agiles. Pour
+cela, nous planifions des sprints de trois semaines avec à chaque fois un nouveau Scrum Master. A
+chaque fin de sprint nous montrions le résultat au client et nous planifions le prochain sprint.
+Pour ce qui est du développement du site, nous devons appliquer l’architecture MVC ainsi que
+programmer en PHP.
+Durant ce projet, j’ai pu participer à la planification des différents sprints ainsi qu’au
+développement du site. J’ai notamment réalisé le système de vote australien sur tous les aspects
+comme la mise en place d’une table voteAustralien dans la base de données, la création des
+différentes vues en html / css, ainsi que l’implémentation des algorithmes dont celui pour
+déterminer le classement des propositions selon les votes des utilisateurs. J’ai également contribué à
+la stylisation d’autres vues, ainsi qu’à la gestion de l’architecture du code afin de réduire les
+duplications de code et les dépendances. Enfin, j’ai pu embrasser le rôle de Scrum Master durant le
+sprint 3. Ce rôle m’a permis d’organiser régulièrement des réunions avec mon équipe, afin
+d’éliminer les obstacles et d’améliorer la cohésion d’équipe afin d’augmenter la productivité.
+Ce projet m’a permis d’améliorer mes compétences en gestion de projet et en travail d’équipe grâce
+aux méthodes agiles.
+L’application des concepts de développement web appris en cours dans un projet concret m’a
+permis de mieux les assimiler et donc de mieux les maîtriser.
+A la fin de ce projet, j’ai senti que j’avais réellement progressé.
+
+

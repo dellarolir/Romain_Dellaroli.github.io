@@ -1,0 +1,16 @@
+Projet 4 :
+Participation à la Nuit de l’Info 2025
+En Décembre 2025, j’ai pu participer à la Nuit de l’Info 2025 en intégrant une équipe de 5
+personnes (moi compris). Il s’agit d’un évènement national durant lequel nous devions programmer
+toute une nuit un site web. Nous avions pour contrainte de remplir 5 défis au choix. Le défi sur
+lequel je me suis penché était celui de mettre en place une machine de Rube Golberg dans le site. Il
+s’agit d’un système qui met beaucoup trop d'étapes pour arriver à une conclusion qui est pourtant
+simple. Pour cela, j’ai pu pour la première fois expérimenter la programmation en JavaScript et
+TypeScript afin de créer une série d’étapes avant d’accéder à une page. Je me suis également
+occupé, en m’aidant de l’IA, du design de certains assets, ainsi qu’en partie de la direction artistique
+globale du site.
+Cet évènement m’a permis d’apprendre de manière ludique le fonctionnement du JavaScript, ainsi
+que de m’améliorer dans la création de prompts afin d’obtenir une direction artistique cohérente
+dans les images générées.
+
+

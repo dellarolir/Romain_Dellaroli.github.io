@@ -1,0 +1,27 @@
+Projet 2:
+Développement d’un jeu vidéo de cartes « Pokémon »
+Entre Mars 2025 et Juin 2025, j’ai pu réaliser en binôme un jeu vidéo “Pokémon Trading Card
+Game”. Ce projet s’est effectué en deux parties. Dans la première partie, nous étions amenés à
+programmer la partie fonctionnelle de l’application. Nous avions pour contrainte de développer en
+java, ainsi que de ne pas modifier le squelette de code de base. Je me suis occupé de la
+programmation du fonctionnement d’un grand nombre de cartes, de l’implémentation de la gestion
+des talents, de la gestion de l’organisation d’un tour dans le jeu, ainsi que la création d’un certain
+nombre de méthodes en tout genre. Cette partie m’a permis d’expérimenter le développement d’une
+application complexe dont le fonctionnement est basé sur l’héritage et le polymorphisme. Grâce à
+cela, j’ai pu appliquer les connaissances que j’avais obtenues durant mes cours de développement
+orienté objet ainsi qu’améliorer mon raisonnement adapté à ce type de programmation.
+Par la suite, dans la deuxième partie, nous devions programmer l’interface graphique du jeu. Nous
+avions pour contrainte de programmer en JavaFX et FXML, de ne pas modifier le squellete de base
+du code et enfin de ne pas toucher à la partie fonctionnelle. Je me suis occupé du fonctionnement
+global de l’application, de l’agencement visuel global, ainsi que de la créations de quelques
+animations. En effet, j’ai créé un système qui permet de mettre en avant la carte survolée par le
+curseur, ainsi qu’un autre système qui permet de mettre en avant l’énergie survolée par le joueur.
+Cette partie m’a permis d’améliorer mes conaissances en JavaFX, notamment sur les bindings et les
+listeners, ainsi qu’en FXML, notamment sur l’agencement visuel ainsique que sur la modularité des
+éléments.
+Ces projet, dans sa globalité m’a permis de mieux prendre en main l’outil GIT, avec notamment la
+gestion des branches.
+A la fin de ce projet, j’ai acquis énormément d’expérience en développement orienté objet ainsi
+qu’en développement d’interface Homme Machine.
+
+

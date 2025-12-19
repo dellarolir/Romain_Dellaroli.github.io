@@ -1,0 +1,18 @@
+Participation à la Code Game Jam 2025
+En Février 2025, j’ai pu participer à la Code Game Jam 2025 en intégrant une équipe de 4
+personnes (moi compris). Il s’agit d’un évènement durant lequel nous devions programmer un jeu
+vidéo en 30 heures. Nous avions pour contrainte de respecter le thème annoncé qui était « Mélodie à
+l’infini ». Nous avions décidé de partir sur LibGDX comme moteur graphique. LibGDX est un
+Framework de Java pour le développement de jeux. Notre jeu consistait à explorer l’espace à bord
+d’un vaisseau spatial, à la recherche d’étoiles qui émettent une mélodie, tout en évitant des étoiles
+parasites. Je me suis occupé de la concepton du cockpit du vaisseau. J’ai par ailleurs programmé le
+système de génération des étoiles ainsi que la gestion des collisions afin de ne pas pouvoir passer à
+travers les étoiles.
+Cet évènement m’a permis d’améliorer mes compétences en travavail en équipe. En effet, nous
+nous sommes tout de suite répartis des rôles, tout en nous entraidant mutuellement. Nous avons
+donc instinctivement adopté une attitude de travail en équipe et nous nous en sommes donc bien
+sortis. J’y ai également appris de nouvelles notions en programmation orientée objet, notamment
+l’héritage. Enfin, j’ai pu expérimenter pour la première fois la programmation sur un Framework de
+java, et, plus globalement, la programmation sur un moteur graphique.
+
+
